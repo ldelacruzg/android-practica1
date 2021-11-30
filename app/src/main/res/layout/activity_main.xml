@@ -60,13 +60,13 @@
         android:layout_below="@+id/editTextName"
         android:layout_marginStart="83dp"
         android:layout_marginTop="33dp"
-        android:layout_toEndOf="@+id/textView4"
-        android:onClick="onRadioButtonClicked">
+        android:layout_toEndOf="@+id/textView4">
 
         <RadioButton
             android:id="@+id/radioButtonMale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="true"
             android:text="Masculino"
             android:textSize="14dp" />
 

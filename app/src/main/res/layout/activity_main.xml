@@ -60,15 +60,18 @@
         android:layout_below="@+id/editTextName"
         android:layout_marginStart="83dp"
         android:layout_marginTop="33dp"
-        android:layout_toEndOf="@+id/textView4">
+        android:layout_toEndOf="@+id/textView4"
+        android:onClick="onRadioButtonClicked">
 
         <RadioButton
+            android:id="@+id/radioButtonMale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Masculino"
             android:textSize="14dp" />
 
         <RadioButton
+            android:id="@+id/radioButtonFemale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Femenino"
@@ -131,6 +134,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="156dp"
         android:layout_marginTop="45dp"
+        android:onClick="sendData"
         android:text="@string/button_send" />
 
 </RelativeLayout>

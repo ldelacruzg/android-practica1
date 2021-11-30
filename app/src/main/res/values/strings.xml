@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Practica 1</string>
+    <string name="name_practical">Práctica 1 Android</string>
+    <string name="field_name">Nombre:</string>
+    <string name="field_gender">Género:</string>
+    <string name="field_date_of_birth">Fecha Nac:</string>
+    <string name="field_phone">Teléfono:</string>
+    <string name="button_send">Enviar</string>
 </resources>
